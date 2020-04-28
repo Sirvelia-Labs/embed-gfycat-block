@@ -7,8 +7,8 @@
  * @license     GPL-3
  *
  * @wordpress-plugin
- * Plugin Name: Gfycat Block
- * Plugin URI:  https://github.com/Sirvelia/gfycat-block
+ * Plugin Name: Embed Gfycat Block
+ * Plugin URI:  https://github.com/Sirvelia/embed-gfycat-block
  * Description: Gfycat Block for Gutenberg
  * Version:     1.0.0
  * Author:      Sirvelia
