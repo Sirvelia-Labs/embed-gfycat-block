@@ -21,9 +21,8 @@ export default registerBlockType(
     "Search and show gfycat gifs.",
     "sirvelia-blocks"
   ),
-  category: "sirvelia-blocks",
+  category: "embed",
   icon: {
-    background: "#272d44",
     src: icons.block
   },
   keywords: [
