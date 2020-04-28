@@ -1,0 +1,43 @@
+.wp-block-sirvelia-blocks-gfycat {
+
+    .image-wrapper {
+        position: relative;
+
+        p {
+          margin-top: 0;
+        }
+    }
+
+    button {
+
+        &.select-image {
+          width: 25%;
+          height: auto;
+        }
+
+        &.remove-image {
+
+            background-color: red;
+            border: 5px red solid;
+            //padding: 5px 5px 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: .9;
+            margin: 0;
+            padding: 0;
+
+            svg {
+                background: red;
+                fill: white;
+            }
+
+            &:hover {
+                opacity: 1;
+            }
+
+        }
+
+    }
+
+}
