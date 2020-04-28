@@ -2,7 +2,7 @@
 /**
  * Plugin's bootstrap file to launch the plugin.
  *
- * @package     Sirvelia\Blocks
+ * @package     Sirvelia\GfycatBlock
  * @author      Sirvelia
  * @license     GPL-3
  *
@@ -19,7 +19,7 @@
  * License URI: https://www.gnu.org/licenses/gpl-3.0.txt
  */
 
-namespace Sirvelia\Blocks;
+namespace Sirvelia\GfycatBlock;
 
 //  Exit if accessed directly.
 defined('ABSPATH') || exit;

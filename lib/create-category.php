@@ -1,6 +1,6 @@
 <?php
 
-namespace Sirvelia\Blocks;
+namespace Sirvelia\GfycatBlock;
 
 add_filter( 'block_categories', __NAMESPACE__ . '\create_sirvelia_blocks_category', 10, 2);
 

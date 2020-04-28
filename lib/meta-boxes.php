@@ -1,6 +1,6 @@
 <?php
 
-namespace Sirvelia\Blocks;
+namespace Sirvelia\GfycatBlock;
 
 add_action( 'init', __NAMESPACE__ . '\register_meta_fields' );
 /**

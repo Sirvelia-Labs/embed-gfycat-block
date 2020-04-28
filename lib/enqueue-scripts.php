@@ -1,6 +1,6 @@
 <?php
 
-namespace Sirvelia\Blocks;
+namespace Sirvelia\GfycatBlock;
 
 add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\enqueue_block_editor_assets' );
 /**
