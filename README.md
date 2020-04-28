@@ -1,4 +1,4 @@
-=== Gfycat Block ===
+=== Embed Gfycat Block ===
 Contributors: sirvelia
 Donate link: https://sirvelia.com/
 Tags: gfycat, block, gutenberg, gif
