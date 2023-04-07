@@ -1,13 +1,13 @@
 === Embed Gfycat Block ===
-Contributors: sirvelia
+Contributors: sirvelia, amadeuarderiu, joanrodas
 Donate link: https://sirvelia.com/
 Tags: gfycat, block, gutenberg, gif
 Requires at least: 5.0
-Tested up to: 5.4
+Tested up to: 6.2
 Stable tag: trunk
 Requires PHP: 7.2
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 This plugin allows you to embed Gifs in posts and pages with a Gutenberg Block.
 
@@ -27,6 +27,9 @@ With this plugin you can create Gutenberg blocks to search and add Gfycat gifs t
 An answer to that question.
 
 == Changelog ==
+
+= 1.1 =
+Update dependencies
 
 = 1.0 =
 Initial

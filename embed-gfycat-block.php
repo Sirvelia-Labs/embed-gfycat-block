@@ -1,79 +1,34 @@
 <?php
 /**
- * Plugin's bootstrap file to launch the plugin.
+ * Plugin Name:       Embed Gfycat Block
+ * Plugin URI:        https://github.com/Sirvelia-Labs/embed-gfycat-block
+ * Description:       Gfycat Block for Gutenberg
+ * Requires at least: 5.0
+ * Requires PHP:      7.0
+ * Version:           1.1.0
+ * Author:      Sirvelia
+ * Author URI:  https://sirvelia.com/
+ * License:           GPLv3
+ * License URI:       https://www.gnu.org/licenses/gpl-3.0.html
+ * Text Domain:       sirvelia-blocks
+ * Domain Path:       /languages
  *
  * @package     Sirvelia\GfycatBlock
  * @author      Sirvelia
  * @license     GPL-3
- *
- * @wordpress-plugin
- * Plugin Name: Embed Gfycat Block
- * Plugin URI:  https://github.com/Sirvelia/embed-gfycat-block
- * Description: Gfycat Block for Gutenberg
- * Version:     1.0.0
- * Author:      Sirvelia
- * Author URI:  https://sirvelia.com/
- * Text Domain: sirvelia-blocks
- * Domain Path: /languages
- * License:     GPL-3
- * License URI: https://www.gnu.org/licenses/gpl-3.0.txt
  */
-
-namespace Sirvelia\GfycatBlock;
-
-//  Exit if accessed directly.
-defined('ABSPATH') || exit;
 
 /**
- * Gets this plugin's absolute directory path.
+ * Registers the block using the metadata loaded from the `block.json` file.
+ * Behind the scenes, it registers also all assets so they can be enqueued
+ * through the block editor in the corresponding context.
  *
- * @since  2.1.0
- * @ignore
- * @access private
- *
- * @return string
+ * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
-function _get_plugin_directory() {
-	return __DIR__;
+function embed_gfycat_embed_gfycat_block_block_init() {
+	register_block_type( __DIR__ . '/build' );
 }
-
-/**
- * Gets this plugin's URL.
- *
- * @since  2.1.0
- * @ignore
- * @access private
- *
- * @return string
- */
-function _get_plugin_url() {
-	static $plugin_url;
-
-	if ( empty( $plugin_url ) ) {
-		$plugin_url = plugins_url( null, __FILE__ );
-	}
-
-	return $plugin_url;
-}
+add_action( 'init', 'embed_gfycat_embed_gfycat_block_block_init' );
 
 // Enqueue JS and CSS
-include __DIR__ . '/lib/enqueue-scripts.php';
-
-// Register category
-//include __DIR__ . '/lib/create-category.php';
-
-// Register meta boxes
-//include __DIR__ . '/lib/meta-boxes.php';
-
-// Block Templates
-//include __DIR__ . '/lib/block-templates.php';
-
-
-
-/*************
-BLOCK SPECIFIC PHP
-*************/
-
-
-// Dynamic Blocks
-//include __DIR__ . '/blocks/12-dynamic/index.php';
+//include __DIR__ . '/lib/enqueue-scripts.php';

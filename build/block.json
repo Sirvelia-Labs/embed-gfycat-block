@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "sirvelia-blocks/gfycat",
+  "version": "1.1.0",
+  "title": "Gfycat",
+  "category": "embed",
+  "description": "Search and show gfycat gifs.",
+  "supports": {
+    "html": false
+  },
+  "keywords": [
+    "Gfycat",
+    "Animated Gifs",
+    "Meme"
+  ],
+  "textdomain": "sirvelia-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
